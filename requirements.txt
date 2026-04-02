@@ -1,0 +1,4 @@
+# Python dependencies for GUI and utilities
+
+numpy
+tk
