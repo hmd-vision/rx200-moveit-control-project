@@ -63,8 +63,7 @@ source install/setup.bash
 
 ```bash 
 
-cd ~/assignment_1/
-rm -rf build/ install/ log/
+
 colcon build
 source install/setup.bash
 ros2 launch rx200_moveit_control launch_all.launch.py robot_type:=actual default_gripper_state:=false
