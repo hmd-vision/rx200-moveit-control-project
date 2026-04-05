@@ -61,6 +61,8 @@ source install/setup.bash
 
 ### Using Launch File
 
+### Terminal 1 — Launch Robot System
+
 ```bash 
 
 
@@ -72,6 +74,15 @@ ros2 launch rx200_moveit_control launch_all.launch.py robot_type:=actual default
 
 > Use `robot_type:=fake` for simulation instead of the real robot.
 
+### Terminal 2 — Run GUI
+
+Open a new terminal and run:
+
+```bash
+
+source install/setup.bash
+ros2 run rx200_moveit_control keyboard_gui
+```
 --- 
 
 
