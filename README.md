@@ -1,4 +1,4 @@
-# RX200 Pick & Place using ROS2 and MoveIt
+# 🤖 RX200 Pick & Place using ROS2 and MoveIt
 
 A ROS2 and MoveIt-based system for controlling the RX200 robotic arm through GUI-driven pick-and-place execution.
 
@@ -6,13 +6,13 @@ This project implements a pick-and-place system for the ReactorX-200 robotic arm
 
 ---
 
-## Robot Model
+## 🦾 Robot Model
 
 ![Robot Arm](images/rx200.png)
 
 ---
 
-## Features
+## ✨ Features
 
 - Pick and place execution using MoveIt
 - GUI-based coordinate input (Tkinter)
@@ -21,7 +21,7 @@ This project implements a pick-and-place system for the ReactorX-200 robotic arm
 
 ---
 
-## System Overview
+## 🧠 System Overview
 
 The system consists of two main components:
 
@@ -36,7 +36,7 @@ The system consists of two main components:
 
 ---
 
-## Requirements
+## ⚙️ Requirements
 
 - ROS2
 - MoveIt2
@@ -45,7 +45,7 @@ The system consists of two main components:
 
 ---
 
-## Installation
+## 🚀 Installation
 
 ```bash
 
@@ -57,7 +57,7 @@ source install/setup.bash
 ```
 --- 
 
-## How to Run
+## ▶️ How to Run
 
 ### Using Launch File
 
@@ -86,13 +86,13 @@ ros2 run rx200_moveit_control keyboard_gui
 --- 
 
 
-## Visualization
+## 🖥️ Visualization
 
 ![RViz Demo](images/rviz.png)
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 
